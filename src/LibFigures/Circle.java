@@ -12,7 +12,7 @@ import java.awt.*;
  */
 public class Circle extends ScalableFigure {
     
-    Circle(Graphics g, Color bgColor,int r){
+    public Circle(Graphics g, Color bgColor,int r){
         graphics=g;
         this.bgColor = bgColor;
         size=r;

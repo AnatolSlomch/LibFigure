@@ -11,8 +11,8 @@ import java.awt.*;
  * @author anatol
  */
 public abstract class Figure {
-    int x=0;
-    int y=0;
+    public int x=0;
+    public int y=0;
     Color color;
     Graphics graphics;
     Color bgColor;
